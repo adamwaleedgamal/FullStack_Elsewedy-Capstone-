@@ -1,0 +1,912 @@
+[
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountController",
+    "Method": "GetAccount",
+    "RelativePath": "api/Account/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountController",
+    "Method": "GetAccountsByType",
+    "RelativePath": "api/Account/ByType/{typeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "typeId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountController",
+    "Method": "GetCapstoneSupervisors",
+    "RelativePath": "api/Account/CapstoneSupervisors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountController",
+    "Method": "GetCurrentUser",
+    "RelativePath": "api/Account/CurrentUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountController",
+    "Method": "DebugToken",
+    "RelativePath": "api/Account/DebugToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Elsewedy_Capstone_System.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountController",
+    "Method": "Logout",
+    "RelativePath": "api/Account/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountController",
+    "Method": "Refresh",
+    "RelativePath": "api/Account/Refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountController",
+    "Method": "GetReviewersByClass",
+    "RelativePath": "api/Account/Reviewers/ByClass/{classId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountController",
+    "Method": "Test",
+    "RelativePath": "api/Account/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountController",
+    "Method": "GetTestAdmins",
+    "RelativePath": "api/Account/Test/Admins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountTaskController",
+    "Method": "GetAllTasks",
+    "RelativePath": "api/AccountTask",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountTaskController",
+    "Method": "CreateTask",
+    "RelativePath": "api/AccountTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task",
+        "Type": "Elsewedy_Capstone_System.Models.TblTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountTaskController",
+    "Method": "UpdateTask",
+    "RelativePath": "api/AccountTask/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "task",
+        "Type": "Elsewedy_Capstone_System.Models.TblTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountTaskController",
+    "Method": "DeleteTask",
+    "RelativePath": "api/AccountTask/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountTaskController",
+    "Method": "GetTasksByGrade",
+    "RelativePath": "api/AccountTask/ByGrade/{gradeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gradeId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountTaskController",
+    "Method": "GetStudentTasks",
+    "RelativePath": "api/AccountTask/StudentTasks/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.AccountTaskController",
+    "Method": "GetTestTasks",
+    "RelativePath": "api/AccountTask/Test/Tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.ClassController",
+    "Method": "GetClasses",
+    "RelativePath": "api/Class",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.ClassController",
+    "Method": "GetClassesByGrade",
+    "RelativePath": "api/Class/ByGrade/{gradeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gradeId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.DashboardController",
+    "Method": "GetStudentDashboard",
+    "RelativePath": "api/Dashboard/Student/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.GradesController",
+    "Method": "GetGrades",
+    "RelativePath": "api/Grades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.ReportsController",
+    "Method": "GetReports",
+    "RelativePath": "api/Reports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Elsewedy_Capstone_System.Models.Report, Elsewedy-Capstone_System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.ReportsController",
+    "Method": "CreateReport",
+    "RelativePath": "api/Reports",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "report",
+        "Type": "Elsewedy_Capstone_System.Models.Report",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Elsewedy_Capstone_System.Models.Report",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.ReportsController",
+    "Method": "GetReport",
+    "RelativePath": "api/Reports/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Elsewedy_Capstone_System.Models.Report",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.ReportsController",
+    "Method": "UpdateReport",
+    "RelativePath": "api/Reports/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "reportUpdate",
+        "Type": "Elsewedy_Capstone_System.Models.Report",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.ReportsController",
+    "Method": "DeleteReport",
+    "RelativePath": "api/Reports/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.ReportsController",
+    "Method": "GetReportsByUser",
+    "RelativePath": "api/Reports/ByUser/{submitterAccountId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "submitterAccountId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Elsewedy_Capstone_System.Models.Report, Elsewedy-Capstone_System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.StudentExtensionsController",
+    "Method": "GetStudentExtensions",
+    "RelativePath": "api/StudentExtensions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Elsewedy_Capstone_System.Models.StudentExtension, Elsewedy-Capstone_System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.StudentExtensionsController",
+    "Method": "PostStudentExtension",
+    "RelativePath": "api/StudentExtensions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentExtension",
+        "Type": "Elsewedy_Capstone_System.Models.StudentExtension",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Elsewedy_Capstone_System.Models.StudentExtension",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.StudentExtensionsController",
+    "Method": "GetStudentExtension",
+    "RelativePath": "api/StudentExtensions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Elsewedy_Capstone_System.Models.StudentExtension",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.StudentExtensionsController",
+    "Method": "PutStudentExtension",
+    "RelativePath": "api/StudentExtensions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentExtension",
+        "Type": "Elsewedy_Capstone_System.Models.StudentExtension",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.StudentExtensionsController",
+    "Method": "DeleteStudentExtension",
+    "RelativePath": "api/StudentExtensions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskSubmissionsController",
+    "Method": "GetTaskSubmissions",
+    "RelativePath": "api/TaskSubmissions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskSubmissionsController",
+    "Method": "PostTaskSubmission",
+    "RelativePath": "api/TaskSubmissions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "submission",
+        "Type": "Elsewedy_Capstone_System.Models.TaskSubmission",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Elsewedy_Capstone_System.Models.TaskSubmission",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TaskSubmissionsController",
+    "Method": "GetTaskSubmission",
+    "RelativePath": "api/TaskSubmissions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Elsewedy_Capstone_System.Models.TaskSubmission",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TaskSubmissionsController",
+    "Method": "PutTaskSubmission",
+    "RelativePath": "api/TaskSubmissions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "submission",
+        "Type": "Elsewedy_Capstone_System.Models.TaskSubmission",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskSubmissionsController",
+    "Method": "DeleteTaskSubmission",
+    "RelativePath": "api/TaskSubmissions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskSubmissionsController",
+    "Method": "AddFeedback",
+    "RelativePath": "api/TaskSubmissions/{id}/feedback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "TaskSubmissionsController\u002BFeedbackRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskSubmissionsController",
+    "Method": "RejectTask",
+    "RelativePath": "api/TaskSubmissions/{id}/reject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskSubmissionsController",
+    "Method": "MarkReviewed",
+    "RelativePath": "api/TaskSubmissions/{id}/review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "TaskSubmissionsController\u002BReviewRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "GetTeamMembers",
+    "RelativePath": "api/TeamMembers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "GetTeams",
+    "RelativePath": "api/Teams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "GetTeam",
+    "RelativePath": "api/Teams/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "AssignAccountToClass",
+    "RelativePath": "api/Teams/AssignAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Elsewedy_Capstone_System.Controllers.AssignAccountRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "GetTeamsByEngineer",
+    "RelativePath": "api/Teams/ByEngineer/{engineerAccountId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "engineerAccountId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "GetTeamByLeader",
+    "RelativePath": "api/Teams/ByLeader/{leaderAccountId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leaderAccountId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "CheckTeams",
+    "RelativePath": "api/Teams/Check",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "CreateTeam",
+    "RelativePath": "api/Teams/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Elsewedy_Capstone_System.Controllers.CreateTeamRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "DebugTeams",
+    "RelativePath": "api/Teams/Debug",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "DebugGradeInfo",
+    "RelativePath": "api/Teams/Debug/GradeInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "DebugReviewerSupervisorExtensions",
+    "RelativePath": "api/Teams/Debug/ReviewerSupervisorExtensions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "GetEngineerAssignments",
+    "RelativePath": "api/Teams/EngineerAssignments/{engineerAccountId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "engineerAccountId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "RemoveAssignment",
+    "RelativePath": "api/Teams/RemoveAssignment/{accountId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "TestTeams",
+    "RelativePath": "api/Teams/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TeamController",
+    "Method": "GetTeamsWithDetails",
+    "RelativePath": "api/Teams/WithDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TestController",
+    "Method": "TestConnection",
+    "RelativePath": "api/Test/Connection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Capstone_System.Controllers.TestController",
+    "Method": "TestStudent",
+    "RelativePath": "api/Test/Student/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

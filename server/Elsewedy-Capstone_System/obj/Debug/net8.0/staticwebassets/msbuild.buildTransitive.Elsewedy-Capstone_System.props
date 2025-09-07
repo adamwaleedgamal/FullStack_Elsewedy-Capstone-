@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Elsewedy-Capstone_System.props" />
+</Project>
