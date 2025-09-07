@@ -3505,3 +3505,14 @@ C:\Users\hussien.mohamed\Desktop\Full-CapstoneMs f-v1 - Copy (2)\Full-CapstoneMs
 C:\Users\hussien.mohamed\Desktop\Full-CapstoneMs f-v1 - Copy (2)\Full-CapstoneMs f-v1 - Copy\server\Elsewedy-Capstone_System\obj\Debug\net8.0\Elsewedy-Capstone_System.pdb
 C:\Users\hussien.mohamed\Desktop\Full-CapstoneMs f-v1 - Copy (2)\Full-CapstoneMs f-v1 - Copy\server\Elsewedy-Capstone_System\obj\Debug\net8.0\Elsewedy-Capstone_System.genruntimeconfig.cache
 C:\Users\hussien.mohamed\Desktop\Full-CapstoneMs f-v1 - Copy (2)\Full-CapstoneMs f-v1 - Copy\server\Elsewedy-Capstone_System\obj\Debug\net8.0\ref\Elsewedy-Capstone_System.dll
+C:\Users\adam.walid\Desktop\Full-CapstoneMs f-v2\server\Elsewedy-Capstone_System\obj\Debug\net8.0\Elsewedy-Capstone_System.csproj.AssemblyReference.cache
+C:\Users\adam.walid\Desktop\Full-CapstoneMs f-v2\server\Elsewedy-Capstone_System\obj\Debug\net8.0\Elsewedy-Capstone_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adam.walid\Desktop\Full-CapstoneMs f-v2\server\Elsewedy-Capstone_System\obj\Debug\net8.0\Elsewedy-Capstone_System.AssemblyInfoInputs.cache
+C:\Users\adam.walid\Desktop\Full-CapstoneMs f-v2\server\Elsewedy-Capstone_System\obj\Debug\net8.0\Elsewedy-Capstone_System.AssemblyInfo.cs
+C:\Users\adam.walid\Desktop\Full-CapstoneMs f-v2\server\Elsewedy-Capstone_System\obj\Debug\net8.0\Elsewedy-Capstone_System.csproj.CoreCompileInputs.cache
+C:\Users\adam.walid\Desktop\Full-CapstoneMs f-v2\server\Elsewedy-Capstone_System\obj\Debug\net8.0\Elsewedy-Capstone_System.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\adam.walid\Desktop\Full-CapstoneMs f-v2\server\Elsewedy-Capstone_System\obj\Debug\net8.0\Elsewedy-Capstone_System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\adam.walid\Desktop\Full-CapstoneMs f-v2\server\Elsewedy-Capstone_System\obj\Debug\net8.0\Elsewedy-Capstone_System.sourcelink.json
+C:\Users\adam.walid\Desktop\Full-CapstoneMs f-v2\server\Elsewedy-Capstone_System\obj\Debug\net8.0\Elsewedy-Capstone_System.dll
+C:\Users\adam.walid\Desktop\Full-CapstoneMs f-v2\server\Elsewedy-Capstone_System\obj\Debug\net8.0\refint\Elsewedy-Capstone_System.dll
+C:\Users\adam.walid\Desktop\Full-CapstoneMs f-v2\server\Elsewedy-Capstone_System\obj\Debug\net8.0\Elsewedy-Capstone_System.pdb

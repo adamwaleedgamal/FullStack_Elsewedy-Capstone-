@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Elsewedy-Capstone_System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b77365407bac64ec702a27c27673f93c2e456182")]
 [assembly: System.Reflection.AssemblyProductAttribute("Elsewedy-Capstone_System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Elsewedy-Capstone_System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
